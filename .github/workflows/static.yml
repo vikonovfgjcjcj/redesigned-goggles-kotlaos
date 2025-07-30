@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Котлас OS</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ background-color: #121212;
+ color: #ffffff;
+ margin: 0;
+ padding: 20px;
+ }
+ 
+ .app-container {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ justify-content: center;
+ }
+ 
+ .app-card {
+ background-color: #333;
+ border-radius: 8px;
+ padding: 20px;
+ width: 250px;
+ text-align: center;
+ transition: transform 0.2s;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+ }
+ 
+ .app-card:hover {
+ transform: translateY(-5px);
+ cursor: pointer;
+ }
+ 
+ .app-icon {
+ width: 64px;
+ height: 64px;
+ margin: 20px auto;
+ border-radius: 50%;
+ object-fit: cover;
+ }
+ 
+ .category {
+ background-color: #444;
+ padding: 15px;
+ margin: 20px 0;
+ border-radius: 8px;
+ color: #fff;
+ text-align: center;
+ }
+ 
+ a {
+ text-decoration: none;
+ color: #fff;
+ }
+ 
+ a:hover {
+ color: #ddd;
+ }
+ </style>
+</head>
+<body>
+ <div class="category">
+ <h1>Котлас OS</h1>
+ <p>Доступ к основным сервисам в одном месте</p>
+ </div>
+
+ <div class="app-container">
+ <!-- Telegram -->
+ <a href="https://web.telegram.org" target="_blank" class="app-card">
+ <img src="telegram.png" alt="Telegram" class="app-icon">
+ <h2>Telegram</h2>
+ <p>Мессенджер</p>
+ </a>
+
+ <!-- Яндекс -->
+ <a href="https://ya.ru" target="_blank" class="app-card">
+ <img src="yandex.png" alt="Яндекс" class="app-icon">
+ <h2>Яндекс</h2>
+ <p>Сервисы и поиск</p>
+ </a>
+
+ <!-- Яндекс.Почта -->
+ <a href="https://mail.yandex.ru" target="_blank" class="app-card">
+ <img src="yandex-mail.png" alt="Яндекс.Почта" class="app-icon">
+ <h2>Яндекс.Почта</h2>
+ <p>Электронная почта</p>
+ </a>
+
+ <!-- VK -->
+ <a href="https://vk.com" target="_blank" class="app-card">
+ <img src="vk.png" alt="VK" class="app-icon">
+ <h2>VK</h2>
+ <p>Социальная сеть</p>
+ </a>
+
+ <!-- Mail.ru -->
+ <a href="https://mail.ru" target="_blank" class="app-card">
+ <img src="mail.png" alt="Mail.ru" class="app-icon">
+ <h2>Mail.ru</h2>
+ <p>Почтовый сервис</p>
+ </a>
+ </div>
+
+ <div class="category">
+ <h2>Браузеры</h2>
+ </div>
+
+ <div class="app-container">
+ <!-- Google Chrome -->
+ <a href="https://chrome.google.com" target="_blank" class="app-card">
+ <img src="chrome.png" alt="Google Chrome" class="app-icon">
+ <h2>Google Chrome</h2>
+ <p>Веб-браузер
